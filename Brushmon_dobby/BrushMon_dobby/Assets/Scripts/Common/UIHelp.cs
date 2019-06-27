@@ -30,6 +30,7 @@ public class FAQData
 
 public class UIHelp : MonoBehaviour
 {
+
     [SerializeField] GameObject objFAQ;
     [SerializeField] GameObject objQuestion;
 
