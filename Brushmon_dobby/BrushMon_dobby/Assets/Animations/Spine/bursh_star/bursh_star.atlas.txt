@@ -1,0 +1,13 @@
+
+bursh_star.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star_01
+  rotate: false
+  xy: 2, 2
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1

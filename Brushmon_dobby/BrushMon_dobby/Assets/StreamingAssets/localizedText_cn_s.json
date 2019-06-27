@@ -1,0 +1,564 @@
+{
+  "items": [
+    {
+      "key": "common_button_done",
+      "value": "确认"
+    },
+    {
+      "key": "common_button_cancel",
+      "value": "取消"
+    },
+    {
+      "key": "common_button_delete",
+      "value": "删除"
+    },
+    {
+      "key": "tutorial_title_slide_01",
+      "value": "刷牙教育APP Brush monster"
+    },
+    {
+      "key": "tutorial_body_slide_01",
+      "value": "维护我家孩子牙齿健康的聪明的刷牙教育APP! 欢迎来到Brush monster的世界。"
+    },
+    {
+      "key": "tutorial_title_slide_02",
+      "value": "简介注册及到多功能设置 维护全家人的牙齿健康吧。"
+    },
+    {
+      "key": "tutorial_body_slide_02",
+      "value": "看更改用户或调整设置的菜单"
+    },
+    {
+      "key": "tutorial_title_slide_03",
+      "value": "简介注册及到多功能设置 维护全家人的牙齿健康吧。"
+    },
+    {
+      "key": "tutorial_body_slide_03",
+      "value": "跟我收藏的怪物一起自拍!看收集"
+    },
+    {
+      "key": "tutorial_title_slide_04",
+      "value": "简介注册及到多功能设置 维护全家人的牙齿健康吧。"
+    },
+    {
+      "key": "tutorial_body_slide_04",
+      "value": "正确刷牙了吗？看刷牙结果DIALOGUE"
+    },
+    {
+      "key": "tutorial_title_slide_05",
+      "value": "与Brush monster一起到健康的牙齿\n王国旅行吧!"
+    },
+    {
+      "key": "tutorial_body_slide_05",
+      "value": "开始正确刷牙的魔法按键"
+    },
+    {
+      "key": "tutorial_button_start",
+      "value": "开始"
+    },
+    {
+      "key": "sign_input_field_email",
+      "value": "电子邮件"
+    },
+    {
+      "key": "sign_input_field_password",
+      "value": "密码"
+    },
+    {
+      "key": "sign_button_sign_in_email",
+      "value": "电子邮箱注册"
+    },
+    {
+      "key": "sign_button_find_password",
+      "value": "找密码"
+    },
+    {
+      "key": "sign_button_sign_up",
+      "value": "加入会员"
+    },
+    {
+      "key": "sign_button_sign_up_email",
+      "value": "电子邮箱注册成为会员"
+    },
+    {
+      "key": "sign_terms",
+      "value": "同意Brush monster的条款。"
+    },
+    {
+      "key": "sign_button_view_terms",
+      "value": "看条款>"
+    },
+    {
+      "key": "findpw_text_field_description",
+      "value": "要收到临时密码的话， 要在下面输入窗口里输入您的邮件地址。"
+    },
+    {
+      "key": "findpw_input_field_email",
+      "value": "电子邮件"
+    },
+    {
+      "key": "profile_text_field_description",
+      "value": "请输入要刷牙的孩子的年龄。"
+    },
+    {
+      "key": "profile_dropdown_field_birth",
+      "value": "出生年月日"
+    },
+    {
+      "key": "profile_input_field_name",
+      "value": "名字"
+    },
+    {
+      "key": "profile_text_field_hand_type",
+      "value": "选择手"
+    },
+    {
+      "key": "profile_radio_button_left",
+      "value": "左手"
+    },
+    {
+      "key": "profile_radio_button_right",
+      "value": "右手"
+    },
+    {
+      "key": "profile_text_field_select_character",
+      "value": "选择卡通形象"
+    },
+    {
+      "key": "profile_button_done",
+      "value": "完成"
+    },
+    {
+      "key": "profile_button_modify",
+      "value": "修改"
+    },
+    {
+      "key": "profile_button_delete",
+      "value": "删除"
+    },
+    {
+      "key": "profile_button_add_user",
+      "value": "添加用户"
+    },
+    {
+      "key": "profile_select_text_field_description",
+      "value": "请选择要开始刷牙的简介。"
+    },
+    {
+      "key": "profile_select_modify_text_field_description",
+      "value": "请选择要修改/ 删除的简介。"
+    },
+    {
+      "key": "side_menu_text_field_description",
+      "value": "请注册。"
+    },
+    {
+      "key": "side_menu_button_change_profile",
+      "value": "转换简介"
+    },
+    {
+      "key": "side_menu_button_setting",
+      "value": "设置"
+    },
+    {
+      "key": "side_menu_button_intro_movie",
+      "value": "再看介绍影片"
+    },
+    {
+      "key": "back_press_toast_destrory",
+      "value": "再按一下就会被关掉。"
+    },
+    {
+      "key": "brush_bubble_button_click",
+      "value": "按牙刷上的按键\n或按一下泡沫儿。"
+    },
+    {
+      "key": "selfy_toast_save",
+      "value": "已被存储。"
+    },
+    {
+      "key": "setting_switch_paste",
+      "value": "挤牙膏"
+    },
+    {
+      "key": "setting_switch_clean",
+      "value": "刷牙后整理"
+    },
+    {
+      "key": "setting_progress_vibration_strength",
+      "value": "震动强度"
+    },
+    {
+      "key": "setting_progress_very_weak",
+      "value": "很弱"
+    },
+    {
+      "key": "setting_progress_weakly",
+      "value": "弱"
+    },
+    {
+      "key": "setting_progress_strongly",
+      "value": "强"
+    },
+    {
+      "key": "setting_progress_very_strongly",
+      "value": "很强"
+    },
+    {
+      "key": "setting_button_profile_change",
+      "value": "更改/删除简介"
+    },
+    {
+      "key": "setting_button_logout",
+      "value": "退出"
+    },
+    {
+      "key": "report_dialog_empty",
+      "value": "没有结果价。\n请现在就开始刷牙。"
+    },
+    {
+      "key": "report_level_01",
+      "value": "做得很好。"
+    },
+    {
+      "key": "report_level_02",
+      "value": "下一次要更仔细刷牙。"
+    },
+    {
+      "key": "report_level_03",
+      "value": "你的牙齿还没刷好。\n跟着做的时候， 要更加集中！"
+    },
+    {
+      "key": "report_level_04",
+      "value": "要更加集中!"
+    },
+    {
+      "key": "brush_button_stop",
+      "value": "停止"
+    },
+    {
+      "key": "brush_button_resume",
+      "value": "要继续刷牙，就按一下按键。"
+    },
+    {
+      "key": "alert_dialog_sign_title_email_format",
+      "value": "没有正确输入电子邮箱地址。"
+    },
+    {
+      "key": "alert_dialog_sign_body_email_format",
+      "value": "电子邮件形式不对。"
+    },
+    {
+      "key": "alert_dialog_sign_title_password_empty",
+      "value": "密码不对。"
+    },
+    {
+      "key": "alert_dialog_sign_body_password_empty",
+      "value": "请输入密码。"
+    },
+    {
+      "key": "alert_dialog_sign_title_password_length",
+      "value": "密码不对。"
+    },
+    {
+      "key": "alert_dialog_sign_body_password_length",
+      "value": "密码必须为四个字母以上。\n请重新输入。"
+    },
+    {
+      "key": "alert_dialog_sign_title_not_found_user",
+      "value": "认证失败"
+    },
+    {
+      "key": "alert_dialog_sign_body_not_found_user",
+      "value": "该用户名没被注册。"
+    },
+    {
+      "key": "alert_dialog_sign_title_wrong_password",
+      "value": "认证失败"
+    },
+    {
+      "key": "alert_dialog_sign_body_wrong_password",
+      "value": "密码不对。"
+    },
+    {
+      "key": "alert_dialog_sign_title_term",
+      "value": "同意相关条款未打钩"
+    },
+    {
+      "key": "alert_dialog_sign_body_term",
+      "value": "必须勾选同意协议选框。"
+    },
+    {
+      "key": "alert_dialog_sign_title_email_duplicated",
+      "value": "电子邮件重复错误"
+    },
+    {
+      "key": "alert_dialog_sign_body_email_duplicated",
+      "value": "该电子邮件已被注册。"
+    },
+    {
+      "key": "alert_dialog_findpw_title_send_email",
+      "value": "已发送“重新设置”电子邮件。"
+    },
+    {
+      "key": "alert_dialog_findpw_body_send_email",
+      "value": "将“重置密码邮件” 发送到\n您的电子邮件。"
+    },
+    {
+      "key": "alert_dialog_findpw_title_email_not_found",
+      "value": "没有正确输入电子邮箱地址。"
+    },
+    {
+      "key": "alert_dialog_findpw_body_email_not_found",
+      "value": "该电子邮件地址不存在。\n请重新输入。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_empty",
+      "value": "简介输入错误"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_empty",
+      "value": "请输入简介。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_duplicated",
+      "value": "名字重复错误"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_duplicated",
+      "value": "简介重复错误"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_one_more_than",
+      "value": "简介删除错误"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_one_more_than",
+      "value": "简介要为一个以上。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_delete_current",
+      "value": "简介删除错误"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_delete_current",
+      "value": "不能删除正在使用的简介。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_delete",
+      "value": "删除简介"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_delete",
+      "value": "简介会被删除。\n真的要删除吗？"
+    },
+    {
+      "key": "alert_dialog_permission_title_camera",
+      "value": "无法获取摄像头功能"
+    },
+    {
+      "key": "alert_dialog_permission_body_camera",
+      "value": "获取摄像头功能后才能使用该功能。\n设置IPHONE > BrushMon > 请获取摄像头功能"
+    },
+    {
+      "key": "alert_dialog_common_title_members_only",
+      "value": "会员专用功能"
+    },
+    {
+      "key": "alert_dialog_common_body_members_only",
+      "value": "您选择的是只有注册用户\n才能使用的功能。\n要注册为会员吗？"
+    },
+    {
+      "key": "alert_dialog_common_title_invitation_to_join",
+      "value": "注意事项"
+    },
+    {
+      "key": "alert_dialog_common_body_invitation_to_join",
+      "value": "如果不注册，就不能获取贴纸。\n请加入为会员后， 继续管理牙齿。"
+    },
+    {
+      "key": "alert_dialog_common_button_ignore",
+      "value": "无视"
+    },
+    {
+      "key": "alert_dialog_common_button_sign_up",
+      "value": "会员加入"
+    },
+    {
+      "key": "net_connect_error_title",
+      "value": "网络连接失败"
+    },
+    {
+      "key": "net_connect_error_message",
+      "value": "没有被连接的网络。\n请检查网络连接后再试。"
+    },
+    {
+      "key": "app_quit",
+      "value": "关闭"
+    },
+    {
+      "key": "net_connect_retry",
+      "value": "重新尝试"
+    },
+    {
+      "key": "setting_progress_on",
+      "value": "开"
+    },
+    {
+      "key": "setting_progress_off",
+      "value": "关"
+    },
+    {
+      "key": "setting_select_language",
+      "value": "选择语言"
+    },
+    {
+      "key": "setting_select_voice",
+      "value": "选择音响"
+    },
+    {
+      "key": "report_dialog_not_used_title",
+      "value": "介绍Brush monster智能刷牙"
+    },
+    {
+      "key": "report_dialog_not_used_msg",
+      "value": "使用Brush monster智能牙刷，\n就可以看到有关刷牙习惯的报告。"
+    },
+    {
+      "key": "app_button_resume",
+      "value": "接着做"
+    },
+    {
+      "key": "sign_button_sign_in",
+      "value": "登录"
+    },
+    {
+      "key": "setting_select_screen_reverse",
+      "value": "摄像视频反转"
+    },
+    {
+      "key": "setting_select_screen_reverse_msg",
+      "value": "如果摄像视频反转的话使用。"
+    },
+    {
+      "key": "alert_dialog_sign_title_password_check",
+      "value": "确认密码"
+    },
+    {
+      "key": "alert_dialog_sign_message_password_check",
+      "value": "密码不对。"
+    },
+    {
+      "key": "login_make_id",
+      "value": "创建ID"
+    },
+    {
+      "key": "login_skip",
+      "value": "事先体验"
+    },
+    {
+      "key": "login_find_password",
+      "value": "忘记了密码时"
+    },
+    {
+      "key": "sign_up_make_id",
+      "value": "电子邮箱注册成为会员"
+    },
+    {
+      "key": "sign_up_pass_length",
+      "value": "输入的字母必须包含8至15个字。"
+    },
+    {
+      "key": "sign_up_pass_not_math",
+      "value": "不一致"
+    },
+    {
+      "key": "simple_login_title",
+      "value": "利用已注册的ID，简单登录"
+    },
+    {
+      "key": "simple_login_select_id",
+      "value": "以选择的ID登录"
+    },
+    {
+      "key": "simple_login_different_id",
+      "value": "以别的ID登录"
+    },
+    {
+      "key": "login_password_length_check_msg",
+      "value": "要输入四个字以上"
+    },
+    {
+      "key": "loading_message_warning",
+      "value": "为预防事故，有可能需要护人的指导。\n在实际环境，有可能会碰到洗漱台，请小心点儿。"
+    },
+    {
+      "key": "popup_show_again",
+      "value": "不再看此文章"
+    },
+		{
+			"key" : "vib_edit" ,
+			"value" : "改变"
+		},
+		{
+			"key" : "msg_brush_connecting" ,
+			"value" : "正在连接智能牙刷。"
+		},
+		{
+			"key" : "msg_brush_connecting_guide" ,
+			"value" : "将智能牙刷的按键按一次后，请稍等。"
+		},
+		{
+			"key" : "edit_vib_guide" ,
+			"value" : "按智能牙刷的按键，\n选择震动强度。"
+		},
+		{
+			"key" : "title_bluetooth_connect_error" ,
+			"value" : "无法连接蓝牙。"
+		},
+		{
+			"key" : "msg_bluetooth_connect_error" ,
+			"value" : "牙刷无法与 APP 连接。\n请确认一下智能手机的蓝牙状态。\n要返回主页。"
+		},
+		{
+			"key" : "title_brush_stop" ,
+			"value" : "停止刷牙"
+		},
+		{
+			"key" : "msg_brush_stop" ,
+			"value" : "暂停状态已超过3分，结束刷牙。\n请再开始刷牙。\n要返回主页。"
+		},
+		{
+			"key" : "msg_setting_save" ,
+			"value" : "设置已保存"
+		},
+		{
+			"key" : "msg_profile_change" ,
+			"value" : "选中 {0} 型剖面图。"
+    },
+		{
+			"key" : "not_look_again" ,
+			"value" : "今天不再显示"
+		},
+		{
+			"key" : "setting_switch_paste_msg" ,
+			"value" : "显示刷牙指南中的‘挤牙膏’部分。"
+		},
+		{
+			"key" : "setting_switch_clean_msg" ,
+			"value" : "显示刷牙指南中的‘漱口’及‘洗杯子’部分。"
+		},
+		{
+			"key" : "setting_save_button_title" ,
+			"value" : "存储修改部分"
+		},
+		{
+			"key" : "logout_message" ,
+			"value" : "要注销吗？"
+		},
+		{
+			"key" : "login_or" ,
+			"value" : "或者"
+    }
+  ]
+}

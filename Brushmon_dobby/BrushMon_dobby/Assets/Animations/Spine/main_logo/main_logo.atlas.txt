@@ -1,0 +1,34 @@
+
+main_logo.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brush
+  rotate: false
+  xy: 824, 620
+  size: 692, 300
+  orig: 692, 300
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 2
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+logo_bg
+  rotate: false
+  xy: 2, 442
+  size: 820, 478
+  orig: 820, 478
+  offset: 0, 0
+  index: -1
+mon
+  rotate: false
+  xy: 2, 80
+  size: 669, 360
+  orig: 669, 360
+  offset: 0, 0
+  index: -1

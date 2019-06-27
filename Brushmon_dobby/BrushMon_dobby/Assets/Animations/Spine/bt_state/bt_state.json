@@ -1,0 +1,65 @@
+{
+"skeleton": { "hash": "0N7WktnUVincbf0MXBVjQPfGgGs", "spine": "3.6.48", "width": 110, "height": 110, "images": "./bt_state/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bt_connect", "bone": "root", "color": "ffffff00", "attachment": "bt_connect" },
+	{ "name": "bt_disconnect", "bone": "root", "color": "ffffff00", "attachment": "bt_disconnect" }
+],
+"skins": {
+	"default": {
+		"bt_connect": {
+			"bt_connect": { "width": 110, "height": 110 }
+		},
+		"bt_disconnect": {
+			"bt_disconnect": { "width": 110, "height": 110 }
+		}
+	}
+},
+"animations": {
+	"Connect": {
+		"slots": {
+			"bt_connect": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"Disconnect": {
+		"slots": {
+			"bt_disconnect": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"Scan": {
+		"slots": {
+			"bt_connect": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bt_disconnect": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1,
+						"color": "ffffffff",
+						"curve": [ 0.333, 0.33, 0.758, 1 ]
+					},
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

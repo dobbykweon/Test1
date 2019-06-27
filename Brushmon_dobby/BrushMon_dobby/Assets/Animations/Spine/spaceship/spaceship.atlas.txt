@@ -1,0 +1,34 @@
+
+spaceship.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 76
+  size: 262, 340
+  orig: 262, 340
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 2, 2
+  size: 104, 72
+  orig: 104, 72
+  offset: 0, 0
+  index: -1
+vim
+  rotate: false
+  xy: 266, 21
+  size: 156, 395
+  orig: 156, 395
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 424, 356
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,564 @@
+{
+  "items": [
+    {
+      "key": "common_button_done",
+      "value": "完了"
+    },
+    {
+      "key": "common_button_cancel",
+      "value": "キャンセル"
+    },
+    {
+      "key": "common_button_delete",
+      "value": "削除"
+    },
+    {
+      "key": "tutorial_title_slide_01",
+      "value": "歯みがき習得アプリ\nブラッシュモンスター"
+    },
+    {
+      "key": "tutorial_body_slide_01",
+      "value": "お子様の歯の健康を守る、歯みがき習得用スマートアプリ\nブラッシュモンスターの世界へようこそ！"
+    },
+    {
+      "key": "tutorial_title_slide_02",
+      "value": "プロフィール追加や機能追加によって\n家族の歯の健康を見守ります。"
+    },
+    {
+      "key": "tutorial_body_slide_02",
+      "value": "ユーザーや設定の変更はメニューを選択してください。"
+    },
+    {
+      "key": "tutorial_title_slide_03",
+      "value": ""
+    },
+    {
+      "key": "tutorial_body_slide_03",
+      "value": "コレクションをえらんで、\nあつめたモンスターたちとじどりをしよう！"
+    },
+    {
+      "key": "tutorial_title_slide_04",
+      "value": ""
+    },
+    {
+      "key": "tutorial_body_slide_04",
+      "value": "ダイアログをえらんで、\n上手にブラッシングができたか見てみよう！"
+    },
+    {
+      "key": "tutorial_title_slide_05",
+      "value": "ブラッシュモンスターたちとのボウケンにでるよ！\nじゅんびはいい？"
+    },
+    {
+      "key": "tutorial_body_slide_05",
+      "value": "マホウのスイッチをおしてブラッシングをはじめよう！"
+    },
+    {
+      "key": "tutorial_button_start",
+      "value": "スタート！"
+    },
+    {
+      "key": "sign_input_field_email",
+      "value": "メールアドレス"
+    },
+    {
+      "key": "sign_input_field_password",
+      "value": "パスワード"
+    },
+    {
+      "key": "sign_button_sign_in_email",
+      "value": "メールアドレスでログインする"
+    },
+    {
+      "key": "sign_button_find_password",
+      "value": "パスワードを探す"
+    },
+    {
+      "key": "sign_button_sign_up",
+      "value": "会員登録"
+    },
+    {
+      "key": "sign_button_sign_up_email",
+      "value": "メールアドレスで登録"
+    },
+    {
+      "key": "sign_terms",
+      "value": "ブラッシュモンスターの利用規約に同意してください。"
+    },
+    {
+      "key": "sign_button_view_terms",
+      "value": "利用規約を表示する"
+    },
+    {
+      "key": "findpw_text_field_description",
+      "value": "一時パスワードを受信する\nメールアドレスを入力してください。"
+    },
+    {
+      "key": "findpw_input_field_email",
+      "value": "メールアドレス"
+    },
+    {
+      "key": "profile_text_field_description",
+      "value": "歯みがきをするお子様の情報を入力してください。"
+    },
+    {
+      "key": "profile_dropdown_field_birth",
+      "value": "生年月日"
+    },
+    {
+      "key": "profile_input_field_name",
+      "value": "名前"
+    },
+    {
+      "key": "profile_text_field_hand_type",
+      "value": "利き手を選択"
+    },
+    {
+      "key": "profile_radio_button_left",
+      "value": "左手"
+    },
+    {
+      "key": "profile_radio_button_right",
+      "value": "右手"
+    },
+    {
+      "key": "profile_text_field_select_character",
+      "value": "キャラクター選択"
+    },
+    {
+      "key": "profile_button_done",
+      "value": "完了"
+    },
+    {
+      "key": "profile_button_modify",
+      "value": "変更"
+    },
+    {
+      "key": "profile_button_delete",
+      "value": "削除"
+    },
+    {
+      "key": "profile_button_add_user",
+      "value": "プロフィール追加"
+    },
+    {
+      "key": "profile_select_text_field_description",
+      "value": "プロフィールを選択してブラッシングを始める。"
+    },
+    {
+      "key": "profile_select_modify_text_field_description",
+      "value": "プロフィールを選択して変更・削除する。"
+    },
+    {
+      "key": "side_menu_text_field_description",
+      "value": "ログインしてください。"
+    },
+    {
+      "key": "side_menu_button_change_profile",
+      "value": "プロフィール変更"
+    },
+    {
+      "key": "side_menu_button_setting",
+      "value": "設定"
+    },
+    {
+      "key": "side_menu_button_intro_movie",
+      "value": "紹介動画を再生する"
+    },
+    {
+      "key": "back_press_toast_destrory",
+      "value": "もう一度押すと終了します。"
+    },
+    {
+      "key": "brush_bubble_button_click",
+      "value": "ハブラシのスイッチをおすか、\nがめんのアワをタップしてください。"
+    },
+    {
+      "key": "selfy_toast_save",
+      "value": "保存完了"
+    },
+    {
+      "key": "setting_switch_paste",
+      "value": "歯磨き粉をつける"
+    },
+    {
+      "key": "setting_switch_clean",
+      "value": "歯磨き後の片付け"
+    },
+    {
+      "key": "setting_progress_vibration_strength",
+      "value": "音波振動の強弱"
+    },
+    {
+      "key": "setting_progress_very_weak",
+      "value": "非常に弱い"
+    },
+    {
+      "key": "setting_progress_weakly",
+      "value": "弱い"
+    },
+    {
+      "key": "setting_progress_strongly",
+      "value": "強い"
+    },
+    {
+      "key": "setting_progress_very_strongly",
+      "value": "非常に弱い"
+    },
+    {
+      "key": "setting_button_profile_change",
+      "value": "プロフィールの変更・追加"
+    },
+    {
+      "key": "setting_button_logout",
+      "value": "ログアウト"
+    },
+    {
+      "key": "report_dialog_empty",
+      "value": "結果がありません。\nブラッシングを始めてください。"
+    },
+    {
+      "key": "report_level_01",
+      "value": "よくできました！"
+    },
+    {
+      "key": "report_level_02",
+      "value": "次回はより丁寧に\nブラッシングしてください。"
+    },
+    {
+      "key": "report_level_03",
+      "value": "お口の中がキレイにならなかったです。\n次回はより上手に歯磨きしてください。"
+    },
+    {
+      "key": "report_level_04",
+      "value": "集中してください。"
+    },
+    {
+      "key": "brush_button_stop",
+      "value": "ブラッシングを止める"
+    },
+    {
+      "key": "brush_button_resume",
+      "value": "歯ブラシのスイッチを押して続ける"
+    },
+    {
+      "key": "alert_dialog_sign_title_email_format",
+      "value": "メールアドレスエラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_email_format",
+      "value": "メールアドレスが無効です"
+    },
+    {
+      "key": "alert_dialog_sign_title_password_empty",
+      "value": "パスワードエラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_password_empty",
+      "value": "パスワードを入力する"
+    },
+    {
+      "key": "alert_dialog_sign_title_password_length",
+      "value": "パスワードエラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_password_length",
+      "value": "パスワードは4文字以上である\n必要があります。\nパスワードを再入力してください。"
+    },
+    {
+      "key": "alert_dialog_sign_title_not_found_user",
+      "value": "認証エラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_not_found_user",
+      "value": "未登録のユーザー"
+    },
+    {
+      "key": "alert_dialog_sign_title_wrong_password",
+      "value": "認証エラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_wrong_password",
+      "value": "パスワードが無効です"
+    },
+    {
+      "key": "alert_dialog_sign_title_term",
+      "value": "利用規約に同意しないエラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_term",
+      "value": "利用規約に同意してください。"
+    },
+    {
+      "key": "alert_dialog_sign_title_email_duplicated",
+      "value": "メールアドレス重複エラー"
+    },
+    {
+      "key": "alert_dialog_sign_body_email_duplicated",
+      "value": "メールアドレスが既に使用されています。"
+    },
+    {
+      "key": "alert_dialog_findpw_title_send_email",
+      "value": "再設定のため\nリセットメール送信されました。"
+    },
+    {
+      "key": "alert_dialog_findpw_body_send_email",
+      "value": "入力されたメールアドレスに、\nパスワード再設定用のメールが\n送信されました。"
+    },
+    {
+      "key": "alert_dialog_findpw_title_email_not_found",
+      "value": "メールアドレスエラー"
+    },
+    {
+      "key": "alert_dialog_findpw_body_email_not_found",
+      "value": "メールアドレスが存在しません。\nパスワードを再入力してください。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_empty",
+      "value": "プロフィールエラー"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_empty",
+      "value": "プロフィール名を入力してください"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_duplicated",
+      "value": "プロフィール重複エラー"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_duplicated",
+      "value": "入力されたプロフィール名は\n既に存在します。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_one_more_than",
+      "value": "プロフィール削除エラー"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_one_more_than",
+      "value": "少なくとも1つのプロフィールが\n存在する必要があります。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_delete_current",
+      "value": "プロフィール削除エラー"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_delete_current",
+      "value": "使用中のプロフィールは\n削除できません。"
+    },
+    {
+      "key": "alert_dialog_profile_title_profile_delete",
+      "value": "プロフィールを削除する"
+    },
+    {
+      "key": "alert_dialog_profile_body_profile_delete",
+      "value": "プロフィールが削除されます。\nよろしいですか？"
+    },
+    {
+      "key": "alert_dialog_permission_title_camera",
+      "value": "カメラの権限許可の設定エラー"
+    },
+    {
+      "key": "alert_dialog_permission_body_camera",
+      "value": "カメラの権限許可が必要です。\niPhoneの設定> BrushMon>カメラで\nアクセスを許可してください。"
+    },
+    {
+      "key": "alert_dialog_common_title_members_only",
+      "value": "会員専用"
+    },
+    {
+      "key": "alert_dialog_common_body_members_only",
+      "value": "選択された項目は会員専用です。\n会員登録をしますか？"
+    },
+    {
+      "key": "alert_dialog_common_title_invitation_to_join",
+      "value": "注意事項"
+    },
+    {
+      "key": "alert_dialog_common_body_invitation_to_join",
+      "value": "歯の健康を継続的に管理するために、\n会員登録をおこなってください。\nブラッシング記録とステッカーは、\nログイン後にのみ保存されます。"
+    },
+    {
+      "key": "alert_dialog_common_button_ignore",
+      "value": "取り消す"
+    },
+    {
+      "key": "alert_dialog_common_button_sign_up",
+      "value": "会員登録"
+    },
+    {
+      "key": "net_connect_error_title",
+      "value": "ネットワーク接続に\n失敗しました"
+    },
+    {
+      "key": "net_connect_error_message",
+      "value": "ネットワークに接続されていません。\nネットワーク接続を確認し、\n再度お試しください。"
+    },
+    {
+      "key": "app_quit",
+      "value": "終了"
+    },
+    {
+      "key": "net_connect_retry",
+      "value": "再試行"
+    },
+    {
+      "key": "setting_progress_on",
+      "value": "オン"
+    },
+    {
+      "key": "setting_progress_off",
+      "value": "オフ"
+    },
+    {
+      "key": "setting_select_language",
+      "value": "言語"
+    },
+    {
+      "key": "setting_select_voice",
+      "value": "音声"
+    },
+    {
+      "key": "report_dialog_not_used_title",
+      "value": "ブラッシュモンスター\nスマートハブラシのご案内"
+    },
+    {
+      "key": "report_dialog_not_used_msg",
+      "value": "ブラシモンスタースマートハブラシを\n使用すると、ブラッシング後に\nデンタルレポートを確認できます。"
+    },
+    {
+      "key": "app_button_resume",
+      "value": "続ける"
+    },
+    {
+      "key": "sign_button_sign_in",
+      "value": "ログイン"
+    },
+		{
+			"key" : "setting_select_screen_reverse" ,
+			"value" : "カメラ画面逆転換"
+		},
+		{
+			"key" : "setting_select_screen_reverse_msg" ,
+			"value" : "カメラの映像が逆になる方はチェックしてから利用して下さい。"
+		},
+		{
+			"key" : "alert_dialog_sign_title_password_check" ,
+			"value" : "パスワードの確認"
+		},
+		{
+			"key" : "alert_dialog_sign_message_password_check" ,
+			"value" : "パスワードが一致しません。"
+		},
+		{
+			"key" : "login_make_id" ,
+			"value" : "ID作成"
+		},
+		{
+			"key" : "login_skip" ,
+			"value" : "トライアルを利用してみる"
+		},
+		{
+			"key" : "login_find_password" ,
+			"value" : "パスワードをお忘れの方"
+		},
+		{
+			"key" : "sign_up_make_id" ,
+			"value" : "上記の電子メールでIDを作成"
+		},
+		{
+			"key" : "sign_up_pass_length" ,
+			"value" : "8~15字以内で入力してください"
+		},
+		{
+			"key" : "sign_up_pass_not_math" ,
+			"value" : "一致しません"
+		},
+		{
+			"key" : "simple_login_title" ,
+			"value" : "登録されたIDで簡単ログイン"
+		},
+		{
+			"key" : "simple_login_select_id" ,
+			"value" : "選択したIDでログインする"
+		},
+		{
+			"key" : "simple_login_different_id" ,
+			"value" : "別のIDでログインする"
+		},
+		{
+			"key" : "login_password_length_check_msg" ,
+			"value" : "4文字以上入力して下さい。"
+		},
+		{
+			"key" : "loading_message_warning" ,
+			"value" : "安全と事故防止のために、保護者の指導が要ります。\n実際の環境では洗面台などにぶつかることもあり\n危険ですのでご注意ください。"
+		},
+		{
+			"key" : "popup_show_again" ,
+			"value" : "今後、この警告を表示しない"
+		},
+		{
+			"key" : "vib_edit" ,
+			"value" : "変更"
+		},
+		{
+			"key" : "msg_brush_connecting" ,
+			"value" : "スマート歯ブラシと接続中"
+		},
+		{
+			"key" : "msg_brush_connecting_guide" ,
+			"value" : "スマート歯ブラシのボタンを1回押して、しばらくお待ちください。"
+		},
+		{
+			"key" : "edit_vib_guide" ,
+			"value" : "スマート歯ブラシのボタンを押して、\n振動強度を選択してください。"
+		},
+		{
+			"key" : "title_bluetooth_connect_error" ,
+			"value" : "Bluetoothとの接続OFF"
+		},
+		{
+			"key" : "msg_bluetooth_connect_error" ,
+			"value" : "歯ブラシとアプリの接続が切れました。\nスマートフォンのBluetoothの状態を確認してください。\nメイン画面に戻ります。"
+		},
+		{
+			"key" : "title_brush_stop" ,
+			"value" : "歯磨き中断"
+		},
+		{
+			"key" : "msg_brush_stop" ,
+			"value" : "一時停止時間が3分を超え、歯磨きが終了しました。\n歯磨きをやり直してください。\nメイン画面に戻ります。"
+		},
+		{
+			"key" : "msg_setting_save" ,
+			"value" : "設定が保存されました。"
+		},
+		{
+			"key" : "msg_profile_change" ,
+			"value" : "{0}のプロファイルが選択されます。"
+    },
+		{
+			"key" : "not_look_again" ,
+			"value" : "今日、このメッセージを表示しない"
+		},
+		{
+			"key" : "setting_switch_paste_msg" ,
+			"value" : "歯磨きガイドの中から「歯磨き粉をつける」が表示されます。"
+		},
+		{
+			"key" : "setting_switch_clean_msg" ,
+			"value" : "歯磨きガイドの中から「うがい」、「コップ洗い」が表示されます。"
+		},
+		{
+			"key" : "setting_save_button_title" ,
+			"value" : "変更の保存"
+		},
+		{
+			"key" : "logout_message" ,
+			"value" : "로그아웃 하시겠습니까?_일어"
+		},
+		{
+			"key" : "login_or" ,
+			"value" : "または、"
+    }
+  ]
+}

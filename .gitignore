@@ -1,0 +1,28 @@
+### Unity generated ###
+UnityPackageManager/
+Temp/
+Obj/
+Library/
+UnityGenerated/
+
+
+### Visual Studio / MonoDevelop generated ###
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj 
+*.booproj
+
+
+### Visual Studio cache directory ###
+.vs/
+
+
+### OS generated ###
+
+.DS_Store

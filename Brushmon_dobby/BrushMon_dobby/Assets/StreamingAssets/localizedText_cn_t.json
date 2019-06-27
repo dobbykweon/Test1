@@ -1,0 +1,564 @@
+{
+	"items": [
+	  {
+		"key": "common_button_done",
+		"value": "完成"
+	  },
+	  {
+		"key": "common_button_cancel",
+		"value": "刪除"
+	  },
+	  {
+		"key": "common_button_delete",
+		"value": "刪除"
+	  },
+	  {
+		"key": "tutorial_title_slide_01",
+		"value": "刷刷牙怪，刷牙教育軟體APP"
+	  },
+	  {
+		"key": "tutorial_body_slide_01",
+		"value": "歡迎來到刷刷牙怪世界! 互動地APP教育軟體，\n幫助孩子正確刷牙，使牙齒健康!"
+	  },
+	  {
+		"key": "tutorial_title_slide_02",
+		"value": "加入想監測牙齒健康的家庭成員資料"
+	  },
+	  {
+		"key": "tutorial_body_slide_02",
+		"value": "選擇主選單更改成員或設定"
+	  },
+	  {
+		"key": "tutorial_title_slide_03",
+		"value": "加入想監測牙齒健康的家庭成員資料"
+	  },
+	  {
+		"key": "tutorial_body_slide_03",
+		"value": "選擇拍照以顯示你的牙怪"
+	  },
+	  {
+		"key": "tutorial_title_slide_04",
+		"value": "加入想監測牙齒健康的家庭成員資料"
+	  },
+	  {
+		"key": "tutorial_body_slide_04",
+		"value": "選擇查看來看看牙齒有沒有刷乾淨"
+	  },
+	  {
+		"key": "tutorial_title_slide_05",
+		"value": "準備好來一場牙怪冒險之旅了嗎?"
+	  },
+	  {
+		"key": "tutorial_body_slide_05",
+		"value": "魔法按鈕開始刷刷牙"
+	  },
+	  {
+		"key": "tutorial_button_start",
+		"value": "開始"
+	  },
+	  {
+		"key": "sign_input_field_email",
+		"value": "電子郵件"
+	  },
+	  {
+		"key": "sign_input_field_password",
+		"value": "密碼"
+	  },
+	  {
+		"key": "sign_button_sign_in_email",
+		"value": "以電子郵件登入"
+	  },
+	  {
+		"key": "sign_button_find_password",
+		"value": "忘記密碼"
+	  },
+	  {
+		"key": "sign_button_sign_up",
+		"value": "註冊"
+	  },
+	  {
+		"key": "sign_button_sign_up_email",
+		"value": "以電子郵件註冊"
+	  },
+	  {
+		"key": "sign_terms",
+		"value": "同意Brush Monster使用條款及規定"
+	  },
+	  {
+		"key": "sign_button_view_terms",
+		"value": "查看條款及規定"
+	  },
+	  {
+		"key": "findpw_text_field_description",
+		"value": "輸入您的電子郵件以獲取臨時密碼"
+	  },
+	  {
+		"key": "findpw_input_field_email",
+		"value": "電子郵件"
+	  },
+	  {
+		"key": "profile_text_field_description",
+		"value": "輸入孩子的資料"
+	  },
+	  {
+		"key": "profile_dropdown_field_birth",
+		"value": "生日"
+	  },
+	  {
+		"key": "profile_input_field_name",
+		"value": "名字"
+	  },
+	  {
+		"key": "profile_text_field_hand_type",
+		"value": "選擇右手或左手"
+	  },
+	  {
+		"key": "profile_radio_button_left",
+		"value": "左手"
+	  },
+	  {
+		"key": "profile_radio_button_right",
+		"value": "右手"
+	  },
+	  {
+		"key": "profile_text_field_select_character",
+		"value": "選擇角色"
+	  },
+	  {
+		"key": "profile_button_done",
+		"value": "完成"
+	  },
+	  {
+		"key": "profile_button_modify",
+		"value": "修改"
+	  },
+	  {
+		"key": "profile_button_delete",
+		"value": "刪除"
+	  },
+	  {
+		"key": "profile_button_add_user",
+		"value": "增加成員"
+	  },
+	  {
+		"key": "profile_select_text_field_description",
+		"value": "選擇成員開始刷刷牙"
+	  },
+	  {
+		"key": "profile_select_modify_text_field_description",
+		"value": "選擇成員修改/刪除"
+	  },
+	  {
+		"key": "side_menu_text_field_description",
+		"value": "請登入"
+	  },
+	  {
+		"key": "side_menu_button_change_profile",
+		"value": "修改資料"
+	  },
+	  {
+		"key": "side_menu_button_setting",
+		"value": "設定"
+	  },
+	  {
+		"key": "side_menu_button_intro_movie",
+		"value": "重新播放介紹影片"
+	  },
+	  {
+		"key": "back_press_toast_destrory",
+		"value": "再按一次離開"
+	  },
+	  {
+		"key": "brush_bubble_button_click",
+		"value": "按下牙刷上的按鈕或螢幕上的泡泡"
+	  },
+	  {
+		"key": "selfy_toast_save",
+		"value": "儲存"
+	  },
+	  {
+		"key": "setting_switch_paste",
+		"value": "擠上牙膏"
+	  },
+	  {
+		"key": "setting_switch_clean",
+		"value": "刷完後清潔"
+	  },
+	  {
+		"key": "setting_progress_vibration_strength",
+		"value": "聲波振動功率"
+	  },
+	  {
+		"key": "setting_progress_very_weak",
+		"value": "非常微弱"
+	  },
+	  {
+		"key": "setting_progress_weakly",
+		"value": "微弱"
+	  },
+	  {
+		"key": "setting_progress_strongly",
+		"value": "強"
+	  },
+	  {
+		"key": "setting_progress_very_strongly",
+		"value": "非常強"
+	  },
+	  {
+		"key": "setting_button_profile_change",
+		"value": "修改/刪除資料"
+	  },
+	  {
+		"key": "setting_button_logout",
+		"value": "登出"
+	  },
+	  {
+		"key": "report_dialog_empty",
+		"value": "沒有結果! 開始刷牙"
+	  },
+	  {
+		"key": "report_level_01",
+		"value": "做得好!"
+	  },
+	  {
+		"key": "report_level_02",
+		"value": "下次再刷仔細點唷"
+	  },
+	  {
+		"key": "report_level_03",
+		"value": "你的牙齒需要更多清潔。\n下次請更專心遵照指示刷牙!"
+	  },
+	  {
+		"key": "report_level_04",
+		"value": "請專心!"
+	  },
+	  {
+		"key": "brush_button_stop",
+		"value": "停止刷牙"
+	  },
+	  {
+		"key": "brush_button_resume",
+		"value": "按下牙刷按鈕以繼續"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_email_format",
+		"value": "錯誤的電子郵件"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_email_format",
+		"value": "無效的電子郵件"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_password_empty",
+		"value": "密碼錯誤"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_password_empty",
+		"value": "輸入密碼"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_password_length",
+		"value": "密碼錯誤"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_password_length",
+		"value": "密碼需至少4個字元。請再輸入一次密碼"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_not_found_user",
+		"value": "授權錯誤"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_not_found_user",
+		"value": "使用者尚未註冊"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_wrong_password",
+		"value": "授權錯誤"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_wrong_password",
+		"value": "密碼無效"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_term",
+		"value": "接受條款"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_term",
+		"value": "請接受使用條款及規定"
+	  },
+	  {
+		"key": "alert_dialog_sign_title_email_duplicated",
+		"value": "電子郵件重覆錯誤"
+	  },
+	  {
+		"key": "alert_dialog_sign_body_email_duplicated",
+		"value": "電子郵件已使用"
+	  },
+	  {
+		"key": "alert_dialog_findpw_title_send_email",
+		"value": "重置電子郵件已傳送"
+	  },
+	  {
+		"key": "alert_dialog_findpw_body_send_email",
+		"value": "密碼重置郵件已遞送至指定電子郵件"
+	  },
+	  {
+		"key": "alert_dialog_findpw_title_email_not_found",
+		"value": "電子郵件錯誤"
+	  },
+	  {
+		"key": "alert_dialog_findpw_body_email_not_found",
+		"value": "電子郵件不存在 請再次輸入密碼"
+	  },
+	  {
+		"key": "alert_dialog_profile_title_profile_empty",
+		"value": "資料錯誤"
+	  },
+	  {
+		"key": "alert_dialog_profile_body_profile_empty",
+		"value": "輸入成員名字"
+	  },
+	  {
+		"key": "alert_dialog_profile_title_profile_duplicated",
+		"value": "名字已重覆輸入"
+	  },
+	  {
+		"key": "alert_dialog_profile_body_profile_duplicated",
+		"value": "成員名字已存在"
+	  },
+	  {
+		"key": "alert_dialog_profile_title_profile_one_more_than",
+		"value": "資料刪除錯誤"
+	  },
+	  {
+		"key": "alert_dialog_profile_body_profile_one_more_than",
+		"value": "至少需存在一個資料"
+	  },
+	  {
+		"key": "alert_dialog_profile_title_profile_delete_current",
+		"value": "資料刪除錯誤"
+	  },
+	  {
+		"key": "alert_dialog_profile_body_profile_delete_current",
+		"value": "資料正在使用中無法刪除"
+	  },
+	  {
+		"key": "alert_dialog_profile_title_profile_delete",
+		"value": "刪除資料"
+	  },
+	  {
+		"key": "alert_dialog_profile_body_profile_delete",
+		"value": "成員資料將被刪除，確定刪除?"
+	  },
+	  {
+		"key": "alert_dialog_permission_title_camera",
+		"value": "相機設定錯誤"
+	  },
+	  {
+		"key": "alert_dialog_permission_body_camera",
+		"value": "需要開啟相機 請至設定>BrushMon>相機"
+	  },
+	  {
+		"key": "alert_dialog_common_title_members_only",
+		"value": "可註冊成員"
+	  },
+	  {
+		"key": "alert_dialog_common_body_members_only",
+		"value": "所選的功能可使用於目前註冊的成員,\n你想要登入嗎?"
+	  },
+	  {
+		"key": "alert_dialog_common_title_invitation_to_join",
+		"value": "警告"
+	  },
+	  {
+		"key": "alert_dialog_common_body_invitation_to_join",
+		"value": "請註冊以使用牙齒保健管理追蹤\n刷牙紀錄及貼紙只有在您提入時可以使用"
+	  },
+	  {
+		"key": "alert_dialog_common_button_ignore",
+		"value": "忽略"
+	  },
+	  {
+		"key": "alert_dialog_common_button_sign_up",
+		"value": "登入"
+	  },
+	  {
+		"key": "net_connect_error_title",
+		"value": "網路連線錯誤"
+	  },
+	  {
+		"key": "net_connect_error_message",
+		"value": "無網路連線。確認網路再試一次"
+	  },
+	  {
+		"key": "app_quit",
+		"value": "離開"
+	  },
+	  {
+		"key": "net_connect_retry",
+		"value": "重試"
+	  },
+	  {
+		"key": "setting_progress_on",
+		"value": "開啟"
+	  },
+	  {
+		"key": "setting_progress_off",
+		"value": "關閉"
+	  },
+	  {
+		"key": "setting_select_language",
+		"value": "語言"
+	  },
+	  {
+		"key": "setting_select_voice",
+		"value": "聲音"
+	  },
+	  {
+		"key": "report_dialog_not_used_title",
+		"value": "刷刷牙怪操作指南"
+	  },
+	  {
+		"key": "report_dialog_not_used_msg",
+		"value": "使用刷刷牙怪後，可立即觀看刷牙報告"
+	  },
+		{
+			"key" : "app_button_resume" ,
+			"value" : "繼續" 
+		},
+		{
+			"key" : "sign_button_sign_in" ,
+			"value" : "登入" 
+		},
+		{
+			"key" : "setting_select_screen_reverse" ,
+			"value" : "相機旋轉"
+		},
+		{
+			"key" : "setting_select_screen_reverse_msg" ,
+			"value" : "僅限相機容易旋轉的人使用。"
+		},
+		{
+			"key" : "alert_dialog_sign_title_password_check" ,
+			"value" : "確認密碼"
+		},
+		{
+			"key" : "alert_dialog_sign_message_password_check" ,
+			"value" : "密碼錯誤"
+		},
+		{
+			"key" : "login_make_id" ,
+			"value" : "创建用户名"
+		},
+		{
+			"key" : "login_skip" ,
+			"value" : "提前体验"
+		},
+		{
+			"key" : "login_find_password" ,
+			"value" : "忘记密码"
+		},
+		{
+			"key" : "sign_up_make_id" ,
+			"value" : "用上述邮箱创建用户名"
+		},
+		{
+			"key" : "sign_up_pass_length" ,
+			"value" : "输入字符须在8~15字内"
+		},
+		{
+			"key" : "sign_up_pass_not_math" ,
+			"value" : "不一致"
+		},
+		{
+			"key" : "simple_login_title" ,
+			"value" : "利用已注册用户名登录"
+		},
+		{
+			"key" : "simple_login_select_id" ,
+			"value" : "利用所选用户名登录"
+		},
+		{
+			"key" : "simple_login_different_id" ,
+			"value" : "利用其他用户名登录"
+		},
+		{
+			"key" : "login_password_length_check_msg" ,
+			"value" : "請輸入至少4個字符"
+		},
+		{
+			"key" : "loading_message_warning" ,
+			"value" : "爲預防安全事故,可能需要保護者指導.\n小心，因為它可能會在真實環境中撞到水槽。"
+		},
+		{
+			"key" : "popup_show_again" ,
+			"value" : "不要再顯示了"
+		},
+		{
+			"key" : "vib_edit" ,
+			"value" : "改變"
+		},
+		{
+			"key" : "msg_brush_connecting" ,
+			"value" : "正在連接智能牙刷。"
+		},
+		{
+			"key" : "msg_brush_connecting_guide" ,
+			"value" : "將智能牙刷的按鍵按壹次後，請稍等。"
+		},
+		{
+			"key" : "edit_vib_guide" ,
+			"value" : "按智能牙刷的按鍵，\n選擇震動強度。"
+		},
+		{
+			"key" : "title_bluetooth_connect_error" ,
+			"value" : "無法連接藍牙。"
+		},
+		{
+			"key" : "msg_bluetooth_connect_error" ,
+			"value" : "牙刷無法與 APP 連接。\n請確認壹下智能手機的藍牙狀態。\n要返回主頁。"
+		},
+		{
+			"key" : "title_brush_stop" ,
+			"value" : "停止刷牙"
+		},
+		{
+			"key" : "msg_brush_stop" ,
+			"value" : "暫停狀態已超過3分，結束刷牙。\n請再開始刷牙。\n要返回主頁。"
+		},
+		{
+			"key" : "msg_setting_save" ,
+			"value" : "設置已保存。"
+		},
+		{
+			"key" : "msg_profile_change" ,
+			"value" : "選中{0}型剖面圖。"
+		},
+		{
+			"key" : "not_look_again" ,
+			"value" : "今天不再顯示"
+		},
+		{
+			"key" : "setting_switch_paste_msg" ,
+			"value" : "顯示刷牙指南中的‘擠牙膏’部分。"
+		},
+		{
+			"key" : "setting_switch_clean_msg" ,
+			"value" : "顯示刷牙指南中的‘漱口’及‘洗杯子’部分。"
+		},
+		{
+			"key" : "setting_save_button_title" ,
+			"value" : "存儲修改部分"
+		},
+		{
+			"key" : "logout_message" ,
+			"value" : "要註銷嗎？"
+		},
+		{
+			"key" : "login_or" ,
+			"value" : "或者"
+		}
+	]
+}

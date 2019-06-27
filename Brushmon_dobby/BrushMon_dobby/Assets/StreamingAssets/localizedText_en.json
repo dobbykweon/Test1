@@ -1,0 +1,563 @@
+{
+    "items": [{
+			"key" : "common_button_done" ,
+			"value" : "Done" 
+		},
+		{
+			"key" : "common_button_cancel" ,
+			"value" : "Cancel" 
+		},
+		{
+			"key" : "common_button_delete" ,
+			"value" : "Delete" 
+		},
+		{
+			"key" : "tutorial_title_slide_01" ,
+			"value" : "Brush Monster, toothbrushing education app" 
+		},
+		{
+			"key" : "tutorial_body_slide_01" ,
+			"value" : "Welcome to the world of Brush Monster,\na smart toothbrushing education application\nfor your child's dental health!" 
+		},
+		{
+			"key" : "tutorial_title_slide_02" ,
+			"value" : "Monitor family member's dental health\nby adding a profile or setting other functions." 
+		},
+		{
+			"key" : "tutorial_body_slide_02" ,
+			"value" : "Select menu to change users or settings." 
+		},
+		{
+			"key" : "tutorial_title_slide_03" ,
+			"value" : "Monitor family member's dental health\nby adding a profile or setting other functions." 
+		},
+		{
+			"key" : "tutorial_body_slide_03" ,
+			"value" : "Select collections to take selfies with your monster collection!" 
+		},
+		{
+			"key" : "tutorial_title_slide_04" ,
+			"value" : "Monitor family member's dental health\nby adding a profile or setting other functions." 
+		},
+		{
+			"key" : "tutorial_body_slide_04" ,
+			"value" : "Select dialog to see how well you brushed your teeth!" 
+		},
+		{
+			"key" : "tutorial_title_slide_05" ,
+			"value" : "Are you ready to start an adventurous journey with Brush Monster?" 
+		},
+		{
+			"key" : "tutorial_body_slide_05" ,
+			"value" : "Magical button to start your smart toothbrushing" 
+		},
+		{
+			"key" : "tutorial_button_start" ,
+			"value" : "Start" 
+		},
+		{
+			"key" : "sign_input_field_email" ,
+			"value" : "Email address" 
+		},
+		{
+			"key" : "sign_input_field_password" ,
+			"value" : "Password" 
+		},
+		{
+			"key" : "sign_button_sign_in_email" ,
+			"value" : "Login with email" 
+		},
+		{
+			"key" : "sign_button_find_password" ,
+			"value" : "Find password" 
+		},
+		{
+			"key" : "sign_button_sign_up" ,
+			"value" : "Sign up" 
+		},
+		{
+			"key" : "sign_button_sign_up_email" ,
+			"value" : "Sign up with email" 
+		},
+		{
+			"key" : "sign_terms" ,
+			"value" : "Please agree with the terms and conditions of Brush Monster." 
+		},
+		{
+			"key" : "sign_button_view_terms" ,
+			"value" : "View terms >" 
+		},
+		{
+			"key" : "findpw_text_field_description" ,
+			"value" : "Enter your email address\nto recieve a temporary password." 
+		},
+		{
+			"key" : "findpw_input_field_email" ,
+			"value" : "Email address" 
+		},
+		{
+			"key" : "profile_text_field_description" ,
+			"value" : "Enter information of the child who will brush." 
+		},
+		{
+			"key" : "profile_dropdown_field_birth" ,
+			"value" : "Date of birth" 
+		},
+		{
+			"key" : "profile_input_field_name" ,
+			"value" : "name" 
+		},
+		{
+			"key" : "profile_text_field_hand_type" ,
+			"value" : "select hand" 
+		},
+		{
+			"key" : "profile_radio_button_left" ,
+			"value" : "left hand" 
+		},
+		{
+			"key" : "profile_radio_button_right" ,
+			"value" : "right hand" 
+		},
+		{
+			"key" : "profile_text_field_select_character" ,
+			"value" : "select character" 
+		},
+		{
+			"key" : "profile_button_done" ,
+			"value" : "Done" 
+		},
+		{
+			"key" : "profile_button_modify" ,
+			"value" : "Change" 
+		},
+		{
+			"key" : "profile_button_delete" ,
+			"value" : "Delete" 
+		},
+		{
+			"key" : "profile_button_add_user" ,
+			"value" : "Add profile" 
+		},
+		{
+			"key" : "profile_select_text_field_description" ,
+			"value" : "Select a profile to start brushing." 
+		},
+		{
+			"key" : "profile_select_modify_text_field_description" ,
+			"value" : "Select a profile to change / delete." 
+		},
+		{
+			"key" : "side_menu_text_field_description" ,
+			"value" : "Please login." 
+		},
+		{
+			"key" : "side_menu_button_change_profile" ,
+			"value" : "Change profile" 
+		},
+		{
+			"key" : "side_menu_button_setting" ,
+			"value" : "Settings" 
+		},
+		{
+			"key" : "side_menu_button_intro_movie" ,
+			"value" : "Replay introduction video" 
+		},
+		{
+			"key" : "back_press_toast_destrory" ,
+			"value" : "Press again to exit." 
+		},
+		{
+			"key" : "brush_bubble_button_click" ,
+			"value" : "Press the button on the toothbrush or bubble on the screen." 
+		},
+		{
+			"key" : "selfy_toast_save" ,
+			"value" : "Saved" 
+		},
+		{
+			"key" : "setting_switch_paste" ,
+			"value" : "Squeezing Toothpaste" 
+		},
+		{
+			"key" : "setting_switch_clean" ,
+			"value" : "Wrap - Up" 
+		},
+		{
+			"key" : "setting_progress_vibration_strength" ,
+			"value" : "Sonic Vibration" 
+		},
+		{
+			"key" : "setting_progress_very_weak" ,
+			"value" : "very weak" 
+		},
+		{
+			"key" : "setting_progress_weakly" ,
+			"value" : "weak" 
+		},
+		{
+			"key" : "setting_progress_strongly" ,
+			"value" : "strong" 
+		},
+		{
+			"key" : "setting_progress_very_strongly" ,
+			"value" : "very strong" 
+		},
+		{
+			"key" : "setting_button_profile_change" ,
+			"value" : "Change / Delete profile" 
+		},
+		{
+			"key" : "setting_button_logout" ,
+			"value" : "Logout" 
+		},
+		{
+			"key" : "report_dialog_empty" ,
+			"value" : "There are no results.\nStart brushing your teeth!" 
+		},
+		{
+			"key" : "report_level_01" ,
+			"value" : "You did great!" 
+		},
+		{
+			"key" : "report_level_02" ,
+			"value" : "Please brush more thoroughly next time." 
+		},
+		{
+			"key" : "report_level_03" ,
+			"value" : "Your mouth needs more cleaning.\nConcentrate and follow better next time!" 
+		},
+		{
+			"key" : "report_level_04" ,
+			"value" : "Please concentrate!" 
+		},
+		{
+			"key" : "brush_button_stop" ,
+			"value" : "Stop Brushing" 
+		},
+		{
+			"key" : "brush_button_resume" ,
+			"value" : "Continue by selecting the toothbrush button." 
+		},
+		{
+			"key" : "alert_dialog_sign_title_email_format" ,
+			"value" : "Email error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_email_format" ,
+			"value" : "Email address is invalid." 
+		},
+		{
+			"key" : "alert_dialog_sign_title_password_empty" ,
+			"value" : "Password error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_password_empty" ,
+			"value" : "Enter password" 
+		},
+		{
+			"key" : "alert_dialog_sign_title_password_length" ,
+			"value" : "Password error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_password_length" ,
+			"value" : "Passwords must be more than 4 characters.\nPlease re-enter password." 
+		},
+		{
+			"key" : "alert_dialog_sign_title_not_found_user" ,
+			"value" : "Authentication error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_not_found_user" ,
+			"value" : "Unregistered user" 
+		},
+		{
+			"key" : "alert_dialog_sign_title_wrong_password" ,
+			"value" : "Authentication error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_wrong_password" ,
+			"value" : "Password is invalid." 
+		},
+		{
+			"key" : "alert_dialog_sign_title_term" ,
+			"value" : "Error accepting the terms and conditions" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_term" ,
+			"value" : "Please agree with the terms and conditions." 
+		},
+		{
+			"key" : "alert_dialog_sign_title_email_duplicated" ,
+			"value" : "Email duplication error" 
+		},
+		{
+			"key" : "alert_dialog_sign_body_email_duplicated" ,
+			"value" : "Email is already in use" 
+		},
+		{
+			"key" : "alert_dialog_findpw_title_send_email" ,
+			"value" : "Resetting email has been sent." 
+		},
+		{
+			"key" : "alert_dialog_findpw_body_send_email" ,
+			"value" : "Password resetting email has been sent\nto entered email address." 
+		},
+		{
+			"key" : "alert_dialog_findpw_title_email_not_found" ,
+			"value" : "Email error" 
+		},
+		{
+			"key" : "alert_dialog_findpw_body_email_not_found" ,
+			"value" : "Email doesn't exist.\nPlease re-enter password." 
+		},
+		{
+			"key" : "alert_dialog_profile_title_profile_empty" ,
+			"value" : "profile error" 
+		},
+		{
+			"key" : "alert_dialog_profile_body_profile_empty" ,
+			"value" : "input profile name" 
+		},
+		{
+			"key" : "alert_dialog_profile_title_profile_duplicated" ,
+			"value" : "name duplication error" 
+		},
+		{
+			"key" : "alert_dialog_profile_body_profile_duplicated" ,
+			"value" : "Profile name already exists." 
+		},
+		{
+			"key" : "alert_dialog_profile_title_profile_one_more_than" ,
+			"value" : "profile deletion error" 
+		},
+		{
+			"key" : "alert_dialog_profile_body_profile_one_more_than" ,
+			"value" : "At least one profile must exist." 
+		},
+		{
+			"key" : "alert_dialog_profile_title_profile_delete_current" ,
+			"value" : "profile deletion error" 
+		},
+		{
+			"key" : "alert_dialog_profile_body_profile_delete_current" ,
+			"value" : "Profile currently being used cannot be deleted." 
+		},
+		{
+			"key" : "alert_dialog_profile_title_profile_delete" ,
+			"value" : "delete profile" 
+		},
+		{
+			"key" : "alert_dialog_profile_body_profile_delete" ,
+			"value" : "Profile will be deleted.\nAre you sure?" 
+		},
+		{
+			"key" : "alert_dialog_permission_title_camera" ,
+			"value" : "camera permission settings error" 
+		},
+		{
+			"key" : "alert_dialog_permission_body_camera" ,
+			"value" : "Camera permission is required.\nPlease allow access in the iPhone Settings > BrushMon > Camera." 
+		},
+		{
+			"key" : "alert_dialog_common_title_members_only" ,
+			"value" : "Available for registered memebers." 
+		},
+		{
+			"key" : "alert_dialog_common_body_members_only" ,
+			"value" : "Selected function is availabe for registered members.\nWould you like to sign up?" 
+		},
+		{
+			"key" : "alert_dialog_common_title_invitation_to_join" ,
+			"value" : "warning" 
+		},
+		{
+			"key" : "alert_dialog_common_body_invitation_to_join" ,
+			"value" : "Please register for continuous tooth management.\nToothbrushing records and stickers will only be stored once you have logged in." 
+		},
+		{
+			"key" : "alert_dialog_common_button_ignore" ,
+			"value" : "ignore" 
+		},
+		{
+			"key" : "alert_dialog_common_button_sign_up" ,
+			"value" : "Sign up" 
+		},
+		{
+			"key" : "net_connect_error_title" ,
+			"value" : "network connection is failed" 
+		},
+		{
+			"key" : "net_connect_error_message" ,
+			"value" : "No network is connected. Check the network connection and try again." 
+		},
+		{
+			"key" : "app_quit" ,
+			"value" : "Quit" 
+		},
+		{
+			"key" : "net_connect_retry" ,
+			"value" : "Retry" 
+		},
+		{
+			"key" : "setting_progress_on" ,
+			"value" : "On" 
+		},
+		{
+			"key" : "setting_progress_off" ,
+			"value" : "Off" 
+		},
+		{
+			"key" : "setting_select_language" ,
+			"value" : "Language" 
+		},
+		{
+			"key" : "setting_select_voice" ,
+			"value" : "Voice"
+		},
+		{
+			"key" : "report_dialog_not_used_title" ,
+			"value" : "Brush Monster Smart Toothbrush guide" 
+		},
+		{
+			"key" : "report_dialog_not_used_msg" ,
+			"value" : "If you use Brush Monster smart toothbrush,\nyou can check the dental report after brushing."
+		},
+		{
+			"key" : "app_button_resume" ,
+			"value" : "Continue" 
+		},
+		{
+			"key" : "sign_button_sign_in" ,
+			"value" : "Log in" 
+		},
+		{
+			"key" : "setting_select_screen_reverse" ,
+			"value" : "Reversal of screen"
+		},
+		{
+			"key" : "setting_select_screen_reverse_msg" ,
+			"value" : "Please check, if the screen is reversed."
+		},
+		{
+			"key" : "alert_dialog_sign_title_password_check" ,
+			"value" : "Confirm password"
+		},
+		{
+			"key" : "alert_dialog_sign_message_password_check" ,
+			"value" : "Password is invaild"
+		},
+		{
+			"key" : "login_make_id" ,
+			"value" : "Create an ID"
+		},
+		{
+			"key" : "login_skip" ,
+			"value" : "Try first"
+		},
+		{
+			"key" : "login_find_password" ,
+			"value" : "Forgot your password?"
+		},
+		{
+			"key" : "sign_up_make_id" ,
+			"value" : "Create an ID by E-mail"
+		},
+		{
+			"key" : "sign_up_pass_length" ,
+			"value" : "Enter between 8 and 15 characters"
+		},
+		{
+			"key" : "sign_up_pass_not_math" ,
+			"value" : "Does not match"
+		},
+		{
+			"key" : "simple_login_title" ,
+			"value" : "Login with the registered ID"
+		},
+		{
+			"key" : "simple_login_select_id" ,
+			"value" : "Sign in with the selected ID"
+		},
+		{
+			"key" : "simple_login_different_id" ,
+			"value" : "Sign in with another ID"
+		},
+		{
+			"key" : "login_password_length_check_msg" ,
+			"value" : "Enter 4 characters or more"
+		},
+		{
+			"key" : "loading_message_warning" ,
+			"value" : "To prevent safety accidents, \nparental guidance may be necessary.\nBe careful, \nyou might bump into sinks or something in real life."
+		},
+		{
+			"key" : "popup_show_again" ,
+			"value" : "Don't show again"
+		},
+		{
+			"key" : "vib_edit" ,
+			"value" : "change"
+		},
+		{
+			"key" : "msg_brush_connecting" ,
+			"value" : "Connecting with smart toothbrush"
+		},
+		{
+			"key" : "msg_brush_connecting_guide" ,
+			"value" : "Please press the button of smart toothbrush once and wait a moment."
+		},
+		{
+			"key" : "edit_vib_guide" ,
+			"value" : "Press the button on the smart toothbrush to select the vibration strength."
+		},
+		{
+			"key" : "title_bluetooth_connect_error" ,
+			"value" : "Bluetooth disconnected"
+		},
+		{
+			"key" : "msg_bluetooth_connect_error" ,
+			"value" : "Your toothbrush and app are disconnected.\nPlease check the Bluetooth status of your smartphone.\nReturn to the main screen."
+		},
+		{
+			"key" : "title_brush_stop" ,
+			"value" : "Stop brushing teeth"
+		},
+		{
+			"key" : "msg_brush_stop" ,
+			"value" : "The brushing time has ended because the pause time has exceeded 3 minutes.\nPlease start brushing your teeth again.\nReturn to the main screen."
+		},
+		{
+			"key" : "msg_setting_save" ,
+			"value" : "New settings have been saved."
+		},
+		{
+			"key" : "msg_profile_change" ,
+			"value" : "{0}'s profile is selected."
+		},
+		{
+			"key" : "not_look_again" ,
+			"value" : "Don’t show this message today"
+		},
+		{
+			"key" : "setting_switch_paste_msg" ,
+			"value" : "This shows the “Squeeze” part in the guidelines on tooth brushing."
+		},
+		{
+			"key" : "setting_switch_clean_msg" ,
+			"value" : "This shows the “Gargle” and “Cup Washing” parts in the guidelines."
+		},
+		{
+			"key" : "setting_save_button_title" ,
+			"value" : "Save the change"
+		},
+		{
+			"key" : "logout_message" ,
+			"value" : "Are you sure you want to log out?"
+		},
+		{
+			"key" : "login_or" ,
+			"value" : "or"
+		}
+	]
+}

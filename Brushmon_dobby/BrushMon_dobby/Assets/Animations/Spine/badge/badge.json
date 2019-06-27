@@ -1,0 +1,280 @@
+{
+"skeleton": { "hash": "+7zj5ww82XxPm/eLO+Xpf7eohKc", "spine": "3.6.48", "width": 470, "height": 330, "images": "./badge/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "badge_00", "parent": "root" },
+	{ "name": "badge_01", "parent": "root" },
+	{ "name": "badge_02", "parent": "root" },
+	{ "name": "badge_03", "parent": "root" },
+	{ "name": "badge_04", "parent": "root" }
+],
+"slots": [
+	{ "name": "badge_00", "bone": "badge_00", "color": "ffffff00", "attachment": "badge_00" },
+	{ "name": "badge_01", "bone": "badge_01", "color": "ffffff00", "attachment": "badge_01" },
+	{ "name": "badge_02", "bone": "badge_02", "color": "ffffff00", "attachment": "badge_02" },
+	{ "name": "badge_03", "bone": "badge_03", "color": "ffffff00", "attachment": "badge_03" },
+	{ "name": "badge_04", "bone": "badge_04", "color": "ffffff00", "attachment": "badge_04" }
+],
+"skins": {
+	"default": {
+		"badge_00": {
+			"badge_00": { "width": 470, "height": 330 }
+		},
+		"badge_01": {
+			"badge_01": { "width": 470, "height": 330 }
+		},
+		"badge_02": {
+			"badge_02": { "width": 470, "height": 330 }
+		},
+		"badge_03": {
+			"badge_03": { "width": 470, "height": 330 }
+		},
+		"badge_04": {
+			"badge_04": { "width": 470, "height": 330 }
+		}
+	}
+},
+"animations": {
+	"Event_1": {
+		"slots": {
+			"badge_00": {
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff79",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"badge_01": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"badge_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1, "y": 1 }
+				]
+			},
+			"badge_00": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"Event_2": {
+		"slots": {
+			"badge_00": {
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff79",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"badge_02": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"badge_00": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"badge_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Event_3": {
+		"slots": {
+			"badge_00": {
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff79",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"badge_03": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"badge_00": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"badge_03": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Event_4": {
+		"slots": {
+			"badge_00": {
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff79",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"badge_04": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"badge_00": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"badge_04": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"None": {}
+}
+}

@@ -1,0 +1,20 @@
+
+bt_state.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt_connect
+  rotate: false
+  xy: 2, 114
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+bt_disconnect
+  rotate: false
+  xy: 2, 2
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1

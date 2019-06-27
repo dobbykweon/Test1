@@ -1,0 +1,632 @@
+{
+"skeleton": { "hash": "WfDcSxfNLoAKy4lx+9Y0XaGlvpQ", "spine": "3.6.47", "width": 151, "height": 50, "images": "./daily_popup_star/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "daily_popup_star_01", "parent": "root", "x": -51, "y": 24 },
+	{ "name": "daily_popup_star_001", "parent": "root", "x": -50, "y": 24 },
+	{ "name": "daily_popup_star_02", "parent": "root", "y": 23 },
+	{ "name": "daily_popup_star_002", "parent": "root", "y": 24 },
+	{ "name": "daily_popup_star_03", "parent": "root", "x": 49, "y": 24 },
+	{ "name": "daily_popup_star_003", "parent": "root", "x": 50, "y": 22 }
+],
+"slots": [
+	{ "name": "daily_popup_star_001", "bone": "daily_popup_star_001", "color": "ffffff00", "attachment": "daily_popup_star_00" },
+	{ "name": "daily_popup_star_003", "bone": "daily_popup_star_003", "color": "ffffff00", "attachment": "daily_popup_star_00" },
+	{ "name": "daily_popup_star_002", "bone": "daily_popup_star_002", "color": "ffffff00", "attachment": "daily_popup_star_00" },
+	{ "name": "daily_popup_star_01", "bone": "daily_popup_star_01", "color": "ffffff00", "attachment": "daily_popup_star_01" },
+	{ "name": "daily_popup_star_02", "bone": "daily_popup_star_02", "color": "ffffff00", "attachment": "daily_popup_star_01" },
+	{ "name": "daily_popup_star_03", "bone": "daily_popup_star_03", "color": "ffffff00", "attachment": "daily_popup_star_01" }
+],
+"skins": {
+	"default": {
+		"daily_popup_star_001": {
+			"daily_popup_star_00": { "y": 1, "width": 50, "height": 50 }
+		},
+		"daily_popup_star_002": {
+			"daily_popup_star_00": { "y": 1, "width": 50, "height": 50 }
+		},
+		"daily_popup_star_003": {
+			"daily_popup_star_00": { "y": 3, "width": 50, "height": 50 }
+		},
+		"daily_popup_star_01": {
+			"daily_popup_star_01": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 26.5, -24, -24.5, -24, -24.5, 26, 26.5, 26 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 51,
+				"height": 50
+			}
+		},
+		"daily_popup_star_02": {
+			"daily_popup_star_01": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 25.5, -23, -25.5, -23, -25.5, 27, 25.5, 27 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 51,
+				"height": 50
+			}
+		},
+		"daily_popup_star_03": {
+			"daily_popup_star_01": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 26.5, -24, -24.5, -24, -24.5, 26, 26.5, 26 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 51,
+				"height": 50
+			}
+		}
+	}
+},
+"animations": {
+	"Star_00_idle": {
+		"slots": {
+			"daily_popup_star_001": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_002": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"Star_01_event": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_001": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{
+						"time": 0.2667,
+						"color": "ffffff6b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"daily_popup_star_002": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.6 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_001": {
+				"scale": [
+					{
+						"time": 0.2667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"Star_01_idle": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_002": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Star_02_event": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3667, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_001": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{
+						"time": 0.3333,
+						"color": "ffffff6b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "color": "ffffff00" }
+				]
+			},
+			"daily_popup_star_02": {
+				"color": [
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_002": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4667,
+						"color": "ffffff6b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.6 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6333, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_02": {
+				"scale": [
+					{
+						"time": 0.1667,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.59 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_001": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4667, "x": 3, "y": 3 }
+				]
+			},
+			"daily_popup_star_002": {
+				"scale": [
+					{
+						"time": 0.4667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"Star_02_idle": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_02": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_02": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Star_03_event": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_001": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"color": "ffffff6b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"daily_popup_star_02": {
+				"color": [
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_002": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffffff",
+						"curve": [ 0.247, 0, 0.631, 0.53 ]
+					},
+					{
+						"time": 0.4667,
+						"color": "ffffff6b",
+						"curve": [ 0.379, 0.53, 0.746, 1 ]
+					},
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"daily_popup_star_03": {
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_003": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"color": "ffffff6b",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.6 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_02": {
+				"scale": [
+					{
+						"time": 0.1667,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.59 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_03": {
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 1, 1.6 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_001": {
+				"scale": [
+					{
+						"time": 0.3,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 3, "y": 3 }
+				]
+			},
+			"daily_popup_star_002": {
+				"scale": [
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.6, "x": 3, "y": 3 }
+				]
+			},
+			"daily_popup_star_003": {
+				"scale": [
+					{
+						"time": 0.6333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"Star_03_idle": {
+		"slots": {
+			"daily_popup_star_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_02": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"daily_popup_star_03": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"daily_popup_star_01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_02": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"daily_popup_star_03": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

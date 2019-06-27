@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "1056515826535-6e3m65f8v68brt3b3es5j9rq8sbcp3bh.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJQHrAnIFaJh0od7fLG614bvbMdYLd6P8"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:1056515826535:ios:8b7eec342e6ddd95", 
+        "android_client_info": {
+          "package_name": "com.kittenplanet.brushmon"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "brush-monsters.appspot.com", 
+    "project_id": "brush-monsters", 
+    "firebase_url": "https://brush-monsters.firebaseio.com", 
+    "project_number": "1056515826535"
+  }
+}

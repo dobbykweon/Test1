@@ -1,0 +1,69 @@
+
+mon_g.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+band_b_01
+  rotate: false
+  xy: 2, 130
+  size: 487, 87
+  orig: 487, 87
+  offset: 0, 0
+  index: -1
+band_b_02
+  rotate: true
+  xy: 625, 431
+  size: 588, 102
+  orig: 588, 102
+  offset: 0, 0
+  index: -1
+band_b_03
+  rotate: false
+  xy: 2, 219
+  size: 557, 177
+  orig: 557, 177
+  offset: 0, 0
+  index: -1
+band_s_01
+  rotate: true
+  xy: 246, 2
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 398
+  size: 621, 621
+  orig: 621, 621
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 729, 354
+  size: 197, 197
+  orig: 197, 197
+  offset: 0, 0
+  index: -1
+eye_bg
+  rotate: false
+  xy: 729, 760
+  size: 259, 259
+  orig: 259, 259
+  offset: 0, 0
+  index: -1
+eye_caver
+  rotate: false
+  xy: 2, 44
+  size: 242, 84
+  orig: 242, 84
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 729, 553
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1

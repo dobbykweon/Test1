@@ -1,0 +1,20 @@
+
+daily_popup_star.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daily_popup_star_00
+  rotate: false
+  xy: 55, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+daily_popup_star_01
+  rotate: false
+  xy: 2, 2
+  size: 51, 50
+  orig: 51, 50
+  offset: 0, 0
+  index: -1

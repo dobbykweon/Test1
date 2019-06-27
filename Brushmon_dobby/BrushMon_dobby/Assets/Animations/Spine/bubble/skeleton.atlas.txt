@@ -1,0 +1,34 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bubble_01
+  rotate: false
+  xy: 2, 279
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+fire_01
+  rotate: false
+  xy: 2, 2
+  size: 275, 275
+  orig: 275, 275
+  offset: 0, 0
+  index: -1
+fire_02
+  rotate: false
+  xy: 804, 1185
+  size: 695, 696
+  orig: 695, 696
+  offset: 0, 0
+  index: -1
+fire_03
+  rotate: false
+  xy: 2, 1081
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1

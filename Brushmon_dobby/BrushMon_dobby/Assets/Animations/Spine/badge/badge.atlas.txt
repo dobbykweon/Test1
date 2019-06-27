@@ -1,0 +1,41 @@
+
+badge.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+badge_00
+  rotate: false
+  xy: 2, 666
+  size: 470, 330
+  orig: 470, 330
+  offset: 0, 0
+  index: -1
+badge_01
+  rotate: false
+  xy: 2, 334
+  size: 470, 330
+  orig: 470, 330
+  offset: 0, 0
+  index: -1
+badge_02
+  rotate: false
+  xy: 474, 666
+  size: 470, 330
+  orig: 470, 330
+  offset: 0, 0
+  index: -1
+badge_03
+  rotate: false
+  xy: 2, 2
+  size: 470, 330
+  orig: 470, 330
+  offset: 0, 0
+  index: -1
+badge_04
+  rotate: false
+  xy: 474, 334
+  size: 470, 330
+  orig: 470, 330
+  offset: 0, 0
+  index: -1

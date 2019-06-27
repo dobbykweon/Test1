@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "mefvvhftvsy1FgX8/swZGDybPt8", "spine": "3.6.48", "width": 165, "height": 90, "images": "./switch/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "switch_bg", "parent": "root", "x": 53.61, "y": -0.41 },
+	{ "name": "switch_icon", "parent": "root", "x": 0.18, "y": 0.3 }
+],
+"slots": [
+	{ "name": "switch_bg", "bone": "switch_bg", "attachment": "switch_bg" },
+	{ "name": "switch_icon", "bone": "switch_icon", "attachment": "switch_icon" }
+],
+"skins": {
+	"default": {
+		"switch_bg": {
+			"switch_bg": { "x": 6.39, "y": 0.41, "width": 120, "height": 6 }
+		},
+		"switch_icon": {
+			"switch_icon": { "x": -0.18, "y": -0.3, "width": 90, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"Idle_off": {},
+	"Idle_on": {
+		"slots": {
+			"switch_bg": {
+				"color": [
+					{ "time": 0, "color": "21f6ffff" }
+				]
+			},
+			"switch_icon": {
+				"color": [
+					{ "time": 0, "color": "22f6ffff" }
+				]
+			}
+		},
+		"bones": {
+			"switch_icon": {
+				"translate": [
+					{ "time": 0, "x": 119.82, "y": 0 }
+				]
+			}
+		}
+	},
+	"Switch_off": {
+		"slots": {
+			"switch_bg": {
+				"color": [
+					{
+						"time": 0,
+						"color": "21f6ffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"switch_icon": {
+				"color": [
+					{
+						"time": 0,
+						"color": "23f7ffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"switch_icon": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 119.82,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"Switch_on": {
+		"slots": {
+			"switch_bg": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "21f6ffff" }
+				]
+			},
+			"switch_icon": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "color": "22f6ffff" }
+				]
+			}
+		},
+		"bones": {
+			"switch_icon": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 119.82, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

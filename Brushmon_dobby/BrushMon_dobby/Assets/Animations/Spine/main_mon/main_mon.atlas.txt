@@ -1,0 +1,146 @@
+
+main_mon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b_body
+  rotate: false
+  xy: 2, 305
+  size: 325, 325
+  orig: 325, 325
+  offset: 0, 0
+  index: -1
+b_eye_01
+  rotate: false
+  xy: 542, 639
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+b_eye_02
+  rotate: false
+  xy: 542, 639
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+b_eye_03
+  rotate: false
+  xy: 542, 639
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+b_foot_l
+  rotate: false
+  xy: 257, 221
+  size: 58, 82
+  orig: 58, 82
+  offset: 0, 0
+  index: -1
+b_foot_r
+  rotate: false
+  xy: 961, 916
+  size: 48, 88
+  orig: 48, 88
+  offset: 0, 0
+  index: -1
+b_lip
+  rotate: false
+  xy: 2, 111
+  size: 253, 192
+  orig: 253, 192
+  offset: 0, 0
+  index: -1
+r_body
+  rotate: false
+  xy: 376, 731
+  size: 266, 273
+  orig: 266, 273
+  offset: 0, 0
+  index: -1
+r_eye_01
+  rotate: false
+  xy: 145, 49
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+r_eye_01_bg
+  rotate: true
+  xy: 2, 31
+  size: 78, 141
+  orig: 78, 141
+  offset: 0, 0
+  index: -1
+r_eye_02
+  rotate: false
+  xy: 542, 577
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+r_eye_02_bg
+  rotate: true
+  xy: 873, 741
+  size: 138, 80
+  orig: 138, 80
+  offset: 0, 0
+  index: -1
+r_foot_l
+  rotate: false
+  xy: 207, 57
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+r_foot_r
+  rotate: false
+  xy: 257, 167
+  size: 39, 52
+  orig: 39, 52
+  offset: 0, 0
+  index: -1
+r_lip
+  rotate: false
+  xy: 644, 708
+  size: 227, 171
+  orig: 227, 171
+  offset: 0, 0
+  index: -1
+y_body
+  rotate: false
+  xy: 2, 632
+  size: 372, 372
+  orig: 372, 372
+  offset: 0, 0
+  index: -1
+y_eye
+  rotate: false
+  xy: 376, 565
+  size: 164, 164
+  orig: 164, 164
+  offset: 0, 0
+  index: -1
+y_foot_l
+  rotate: false
+  xy: 329, 521
+  size: 27, 109
+  orig: 27, 109
+  offset: 0, 0
+  index: -1
+y_foot_r
+  rotate: true
+  xy: 2, 2
+  size: 27, 109
+  orig: 27, 109
+  offset: 0, 0
+  index: -1
+y_lip
+  rotate: false
+  xy: 644, 881
+  size: 315, 123
+  orig: 315, 123
+  offset: 0, 0
+  index: -1

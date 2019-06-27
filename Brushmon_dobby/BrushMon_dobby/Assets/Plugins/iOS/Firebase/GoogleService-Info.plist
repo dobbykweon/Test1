@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1056515826535-6e3m65f8v68brt3b3es5j9rq8sbcp3bh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1056515826535-6e3m65f8v68brt3b3es5j9rq8sbcp3bh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1056515826535-t5hrr33q6bn0murl8vqg1en73btfh508.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJQHrAnIFaJh0od7fLG614bvbMdYLd6P8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1056515826535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kittenplanet.brushmon</string>
+	<key>PROJECT_ID</key>
+	<string>brush-monsters</string>
+	<key>STORAGE_BUCKET</key>
+	<string>brush-monsters.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1056515826535:ios:8b7eec342e6ddd95</string>
+	<key>DATABASE_URL</key>
+	<string>https://brush-monsters.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1056515826535",
+    "firebase_url": "https://brush-monsters.firebaseio.com",
+    "project_id": "brush-monsters",
+    "storage_bucket": "brush-monsters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056515826535:android:8b7eec342e6ddd95",
+        "android_client_info": {
+          "package_name": "com.kittenplanet.brushmon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056515826535-t5hrr33q6bn0murl8vqg1en73btfh508.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kittenplanet.brushmon",
+            "certificate_hash": "be9a50c116c71c64c12c06890c314a897f820aa0"
+          }
+        },
+        {
+          "client_id": "1056515826535-6kccn3vvgds8muphjr7pof9v4t4o08ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVo4OdX1_zp7ZG8FeaCw-Zz4YMHLVVhyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056515826535-6kccn3vvgds8muphjr7pof9v4t4o08ll.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1056515826535-6e3m65f8v68brt3b3es5j9rq8sbcp3bh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kittenplanet.brushmon",
+                "app_store_id": "1320759633"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
