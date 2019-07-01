@@ -11,6 +11,7 @@ using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 
 using System.ComponentModel;
+using UnityEngine.EventSystems;
 
 enum HelpTap
 {
@@ -73,8 +74,12 @@ public class UIHelp : MonoBehaviour
         closeAction = action;
     }
 
+
+
     public void BtnQuestion()
     {
+        BMUtil.Instance.OpenToast("question");
+        Debug.Log("question");
         objFAQ.SetActive(false);
         objQuestion.SetActive(true);
 

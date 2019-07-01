@@ -215,21 +215,24 @@ public class WelcomeController : MonoBehaviour {
     IEnumerator RequestPermission () {
         
         yield return Application.RequestUserAuthorization (UserAuthorization.WebCam);
-        //도연추가 안드로이드일경우 카메라권한체크
 
+
+        //도연추가 안드로이드일경우 카메라권한체크
+        Debug.Log("requestpermisson");
 
 #if UNITY_ANDROID && !UNITY_EDITOR
         checker.CheckPermission(Permissions.CAMERA, (permission, granted) =>
         {
             if (!granted)
             {
-                
                 //BMUtil.Instance.OpenToast("권한없음");
                 //BMUtil.Instance.OpenDialog (
                 //     "카메라 권한 설정오류",
                 //     "Camera 사용권한을 허락하셔야 사용가능한 기능입니다.\n아이폰 설정 > BrushMon > 카메라 기능을 허용해주세요.");
 
                 LogManager.Log("UserAuthorization.WebCam: false");
+        
+                  Debug.Log("UserAuthorization.WebCam: false");
                 if (!BMUtil.Instance.IsDialog)
                 {
                     BMUtil.Instance.OpenDialog(
@@ -239,23 +242,27 @@ public class WelcomeController : MonoBehaviour {
                 }
             }
 
-
             else
             {
                 LogManager.Log("UserAuthorization.WebCam: true");
+        
+               Debug.Log("UserAuthorization.WebCam: true");
                 //BMUtil.Instance.OpenToast("권한잇음");
                 StartPlay();
             }
         });
-#endif
 
-#if UNITY_IOS && !UNITY_EDITOR
+#elif UNITY_IOS && !UNITY_EDITOR
         
         if (Application.HasUserAuthorization (UserAuthorization.WebCam)) {
             LogManager.Log ("UserAuthorization.WebCam: true");
+        
+               Debug.Log("UserAuthorization.WebCam: true");
             StartPlay ();
         } else {
             LogManager.Log ("UserAuthorization.WebCam: false");
+        
+               Debug.Log("UserAuthorization.WebCam: flase");
             // OpenDialog (
             //     "카메라 권한 설정오류",
             //     "Camera 사용권한을 허락하셔야 사용가능한 기능입니다.\n아이폰 설정 > BrushMon > 카메라 기능을 허용해주세요.");
@@ -265,6 +272,8 @@ public class WelcomeController : MonoBehaviour {
             );            
         }
 #endif
+
+        yield break;
     }
 
     public void StartPlay () {
@@ -292,17 +301,25 @@ public class WelcomeController : MonoBehaviour {
             //     "회원가입", "취소", true, true, delegate {
             //         BrushMonSceneManager.Instance.LoadScene (SceneNames.SignIn.ToString ());
             //     });
-            BMUtil.Instance.OpenDialog(
+
+            
+                BMUtil.Instance.OpenDialog(
                 LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_title_members_only"),
                 LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_body_members_only"),
+
                 LocalizationManager.Instance.GetLocalizedValue("sign_button_sign_in"),
                 LocalizationManager.Instance.GetLocalizedValue("common_button_cancel"),
                 "",
-                true, true, false, delegate
+
+                true, true, false,
+
+                delegate
                 {
                     BrushMonSceneManager.Instance.LoadScene(SceneNames.SignIn.ToString());
                 }
             );
+            
+
         }
     }
 
@@ -318,18 +335,46 @@ public class WelcomeController : MonoBehaviour {
             //         StartCoroutine (LoadScene ());
             //     }
             // );
-            BMUtil.Instance.OpenDialog (
-                LocalizationManager.Instance.GetLocalizedValue ("alert_dialog_common_title_invitation_to_join"),
-                LocalizationManager.Instance.GetLocalizedValue ("alert_dialog_common_body_invitation_to_join"),
-                LocalizationManager.Instance.GetLocalizedValue ("sign_button_sign_in"),
-                LocalizationManager.Instance.GetLocalizedValue ("alert_dialog_common_button_ignore"),
+
+            /*
+            BMUtil.Instance.OpenDialog(
+            LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_title_invitation_to_join"),
+            LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_body_invitation_to_join"),
+            LocalizationManager.Instance.GetLocalizedValue("sign_button_sign_in"),
+            LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_button_ignore"),
+            "",
+            true, true, false, delegate {
+                BrushMonSceneManager.Instance.LoadScene(SceneNames.SignIn.ToString());
+            }, delegate {
+                StartCoroutine(LoadScene());
+            }
+            );*/
+            
+            LogManager.Log("skipforbrushing isskip true");
+
+            Debug.Log("skipforbrushing isskip  true");
+
+            BMUtil.Instance.OpenDialog(
+                LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_title_invitation_to_join"),
+                LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_body_invitation_to_join"),
+
+                LocalizationManager.Instance.GetLocalizedValue("sign_button_sign_in"),
+                LocalizationManager.Instance.GetLocalizedValue("alert_dialog_common_button_ignore"),
                 "",
-                true, true, false, delegate {
-                    BrushMonSceneManager.Instance.LoadScene (SceneNames.SignIn.ToString ());
-                }, delegate {
-                    StartCoroutine (LoadScene ());
+
+                true, true, false,
+
+                delegate
+                {
+                    BrushMonSceneManager.Instance.LoadScene(SceneNames.SignIn.ToString());
+                },
+                delegate
+                {
+                        StartCoroutine(LoadScene());
                 }
-            );
+
+                );
+
         }
     }
 
@@ -337,6 +382,8 @@ public class WelcomeController : MonoBehaviour {
         switch (target) {
             case "Start":
 
+                LogManager.Log("start onclick");
+                Debug.Log("start onclick");
                 if (!GPSController.Instance.CheckGPS())
                 {
                     // GPS 팝업 실행

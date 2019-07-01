@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -16,7 +17,30 @@ public class ProfileSelectController : MonoBehaviour {
     // private UserVo userVo;
     private ProfileVo currentProfileVo;
     public GameObject BackButton;
-    
+
+    // 도비추가
+    private const float inchToCm = 2.54f;
+
+    [SerializeField] private EventSystem eventSystem = null;
+
+    [SerializeField] private float dragThresholdCM = 0.5f;
+
+    private void SetDragThreshold()
+    {
+        if (eventSystem != null)
+        {
+            eventSystem.pixelDragThreshold = (int)(dragThresholdCM * Screen.dpi / inchToCm);
+        }
+    }
+
+    private void Awake()
+    {
+        SetDragThreshold();
+    }
+
+
+
+
     void Start () {
         FromScene = SceneDTO.Instance.GetValue ("FromScene");
         tokenVo = ConfigurationData.Instance.GetValueFromJson<TokenVo> ("Token");

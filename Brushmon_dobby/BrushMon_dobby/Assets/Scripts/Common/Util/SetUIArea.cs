@@ -1,8 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SetUIArea : MonoBehaviour {
+
+
+    // 도비추가
+    private const float inchToCm = 2.54f;
+
+    [SerializeField] private EventSystem eventSystem = null;
+
+    [SerializeField] private float dragThresholdCM = 0.5f;
+
+    private void SetDragThreshold()
+    {
+        if (eventSystem != null)
+        {
+            eventSystem.pixelDragThreshold = (int)(dragThresholdCM * Screen.dpi / inchToCm);
+        }
+    }
+
+    private void Awake()
+    {
+        SetDragThreshold();
+    }
 
     // Use this for initialization
     void Start()

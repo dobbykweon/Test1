@@ -238,12 +238,21 @@ public class BMUtil : GlobalMonoSingleton<BMUtil>
 
     Stack<UIDialog> openDialog = new Stack<UIDialog>();
 
-    public void OpenDialog(string title, string body, string doneName, string cancelName = "", bool isDone = true, bool isCancel = false, Action Done = null, Action Cancel = null)
+
+    //ㅎ확인 취소만잇는팝업
+    public void OpenDialog(string title, string body,
+        string doneName, string cancelName = "",
+        bool isDone = true, bool isCancel = false,
+        Action Done = null, Action Cancel = null)
     {
         OpenDialog(title, body, doneName, cancelName, "", isDone, isCancel, false, Done, Cancel);
     }
 
-    public void OpenDialog(string title, string body, string doneName = "", string cancelName = "", string detailName = "", bool isDone = true, bool isCancel = false, bool isDetail = false, Action Done = null, Action Cancel = null, Action Detail = null)
+//확인 취소 디테일 다 잇는 팝업
+    public void OpenDialog(string title, string body,
+        string doneName = "", string cancelName = "", string detailName = "",
+        bool isDone = true, bool isCancel = false, bool isDetail = false,
+        Action Done = null, Action Cancel = null, Action Detail = null)
     {
         //GameObject Dialog = Instantiate(Resources.Load("Prefabs/Panel-Dialog")) as GameObject;
         //Dialog.transform.SetParent(UIRoot.transform, false);

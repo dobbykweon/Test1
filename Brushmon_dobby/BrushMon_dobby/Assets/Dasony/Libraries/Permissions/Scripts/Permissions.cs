@@ -15,11 +15,11 @@ namespace Dasony.Libs.Android {
 			}
         }
 
-		#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
 		private AndroidJavaObject permissionObject;
-        #endif
+#endif
 
-		private IPermissionResult permissionResult;
+        private IPermissionResult permissionResult;
         
 		private Action<string, bool> checkResult;
 		private Action<string, bool> rationaleResult;
@@ -65,7 +65,7 @@ namespace Dasony.Libs.Android {
 		// https://developer.android.com/reference/android/Manifest.permission
 
 		private Permissions() {
-			#if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
         	AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         	AndroidJavaObject activity = unity.GetStatic<AndroidJavaObject>("currentActivity");
 
@@ -91,11 +91,11 @@ namespace Dasony.Libs.Android {
 
 			permissionObject = new AndroidJavaObject ("net.dasony.libs.permissions.PermissionsForUnity", activity, permissionResult);
          
-			#endif
+#endif
         }
 
-		public void CheckPermission (string permission, Action<string, bool> result) {
-            #if UNITY_ANDROID
+        public void CheckPermission (string permission, Action<string, bool> result) {
+            #if UNITY_ANDROID && !UNITY_EDITOR
 			if(result != null) {
 				checkResult += result;
 			}
@@ -107,7 +107,7 @@ namespace Dasony.Libs.Android {
 		}
 
 		public void CheckRationale (string permission, Action<string, bool> result) {
-            #if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
 			if (result != null) {
 				rationaleResult += result;
             }
@@ -115,11 +115,11 @@ namespace Dasony.Libs.Android {
             if (permissionObject != null) {
 				permissionObject.Call("CheckPermissionRationale", permission);
             }
-            #endif
+#endif
         }
-      
-		public void RequestPermissions (string[] permissions, int requestCode, Action<PermissionData[]> result) {
-			#if UNITY_ANDROID
+
+        public void RequestPermissions (string[] permissions, int requestCode, Action<PermissionData[]> result) {
+#if UNITY_ANDROID && !UNITY_EDITOR
 			if(result != null) {
 				requestResult += result;
 			}
@@ -127,26 +127,26 @@ namespace Dasony.Libs.Android {
             if (permissionObject != null) {
 				permissionObject.Call("RequestPermissions", new object[2] { permissions, requestCode });
             }
-            #endif
-		}   
-	}
+#endif
+        }
+    }
 
 	public delegate void CheckResultDelegate(string permission, bool value);
 	public delegate void RequestResultDelegate(PermissionData[] datas);
 
 	public class CheckResult :
-    #if UNITY_ANDROID
+#if UNITY_ANDROID && !UNITY_EDITOR
 	AndroidJavaProxy,
-    #endif
-	IPermissionResult 
+#endif
+    IPermissionResult
 
-	{
-		#if UNITY_ANDROID
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
 		public CheckResult() : base ("net.dasony.libs.permissions.IPermissionResult") { }
-        #endif
+#endif
 
 
-		public event CheckResultDelegate OnCheckPermissionCallback;
+        public event CheckResultDelegate OnCheckPermissionCallback;
         public event CheckResultDelegate OnCheckPermissionRationaleCallback;
 		public event RequestResultDelegate OnRequestResultCallback;
 
